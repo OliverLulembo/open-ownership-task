@@ -4,9 +4,9 @@ export function getKanbanColumn(status: TaskStatus): string {
   switch (status) {
     case 'Pending':
       return 'Incoming';
-    case 'InProgress':
+    case 'In Progress':
       return 'In Progress';
-    case 'stashed':
+    case 'Stashed':
       return 'Stashed';
     case 'Completed':
       return 'Completed';
