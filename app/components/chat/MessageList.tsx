@@ -20,7 +20,6 @@ export function MessageList({ messages, onTaskClick, onInstanceClick }: MessageL
         
         return (
           <div key={message.id} className="flex gap-3">
-            <UserAvatar user={user} />
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-1">
                 <span className="font-medium text-sm">{user?.name || 'Unknown'}</span>
