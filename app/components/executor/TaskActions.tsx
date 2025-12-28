@@ -16,10 +16,10 @@ export function TaskActions({ task, onStatusChange }: TaskActionsProps) {
     if (action === 'Done') {
       newStatus = 'Completed';
     } else if (action === 'Approve' && task.status === 'Pending') {
-      newStatus = 'InProgress';
+      newStatus = 'In Progress';
     } else if (action === 'Reject') {
-      newStatus = 'stashed';
-    } else if (action === 'SendBack' && task.status === 'InProgress') {
+      newStatus = 'Stashed';
+    } else if (action === 'SendBack' && task.status === 'In Progress') {
       newStatus = 'Pending';
     }
 
@@ -42,7 +42,7 @@ export function TaskActions({ task, onStatusChange }: TaskActionsProps) {
           </Button>
         </>
       )}
-      {task.status === 'InProgress' && (
+      {task.status === 'In Progress' && (
         <>
           <Button onClick={() => handleAction('Done')} variant="default">
             Done
@@ -52,7 +52,7 @@ export function TaskActions({ task, onStatusChange }: TaskActionsProps) {
           </Button>
         </>
       )}
-      {task.status === 'stashed' && (
+      {task.status === 'Stashed' && (
         <Button onClick={() => handleAction('Approve')} variant="default">
           Resume
         </Button>
