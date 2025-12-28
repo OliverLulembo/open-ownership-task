@@ -1,0 +1,24 @@
+[
+  {
+    "id": "user-1",
+    "name": "John Executor",
+    "email": "executor@example.com",
+    "role": "executor",
+    "avatar": null
+  },
+  {
+    "id": "user-2",
+    "name": "Jane Overseer",
+    "email": "overseer@example.com",
+    "role": "overseer",
+    "avatar": null
+  },
+  {
+    "id": "user-3",
+    "name": "Bob Executor",
+    "email": "bob@example.com",
+    "role": "executor",
+    "avatar": null
+  }
+]
+

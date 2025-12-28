@@ -1,0 +1,190 @@
+[
+  {
+    "id": "file-1",
+    "applicationId": "app-1",
+    "fileName": "articles_of_organization.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 245760,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-10T08:30:00Z",
+    "fileUrl": "/files/app-1/articles_of_organization.pdf",
+    "description": "Articles of Organization for Tech Innovations LLC"
+  },
+  {
+    "id": "file-2",
+    "applicationId": "app-1",
+    "fileName": "operating_agreement.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 512000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-10T08:35:00Z",
+    "fileUrl": "/files/app-1/operating_agreement.pdf",
+    "description": "Operating Agreement"
+  },
+  {
+    "id": "file-3",
+    "applicationId": "app-1",
+    "fileName": "business_license.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 128000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-10T08:40:00Z",
+    "fileUrl": "/files/app-1/business_license.pdf",
+    "description": "Business License Application"
+  },
+  {
+    "id": "file-4",
+    "applicationId": "app-2",
+    "fileName": "certificate_of_incorporation.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 384000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-12T09:00:00Z",
+    "fileUrl": "/files/app-2/certificate_of_incorporation.pdf",
+    "description": "Certificate of Incorporation"
+  },
+  {
+    "id": "file-5",
+    "applicationId": "app-2",
+    "fileName": "bylaws.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 640000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-12T09:15:00Z",
+    "fileUrl": "/files/app-2/bylaws.pdf",
+    "description": "Corporate Bylaws"
+  },
+  {
+    "id": "file-6",
+    "applicationId": "app-3",
+    "fileName": "partnership_agreement.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 768000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-14T10:00:00Z",
+    "fileUrl": "/files/app-3/partnership_agreement.pdf",
+    "description": "Partnership Agreement - Draft"
+  },
+  {
+    "id": "file-7",
+    "applicationId": "app-4",
+    "fileName": "nonprofit_articles.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 256000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-01T08:00:00Z",
+    "fileUrl": "/files/app-4/nonprofit_articles.pdf",
+    "description": "Articles of Incorporation for Non-Profit"
+  },
+  {
+    "id": "file-8",
+    "applicationId": "app-4",
+    "fileName": "501c3_application.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 1024000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-01T08:30:00Z",
+    "fileUrl": "/files/app-4/501c3_application.pdf",
+    "description": "IRS 501(c)(3) Tax-Exempt Application"
+  },
+  {
+    "id": "file-9",
+    "applicationId": "app-4",
+    "fileName": "mission_statement.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 64000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-01T09:00:00Z",
+    "fileUrl": "/files/app-4/mission_statement.pdf",
+    "description": "Organization Mission Statement"
+  },
+  {
+    "id": "file-10",
+    "applicationId": "app-4",
+    "fileName": "board_resolution.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 192000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-01T09:30:00Z",
+    "fileUrl": "/files/app-4/board_resolution.pdf",
+    "description": "Board of Directors Resolution"
+  },
+  {
+    "id": "file-11",
+    "applicationId": "app-5",
+    "fileName": "passport_copy.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 320000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-13T10:30:00Z",
+    "fileUrl": "/files/app-5/passport_copy.pdf",
+    "description": "Passport Copy - Michael Brown"
+  },
+  {
+    "id": "file-12",
+    "applicationId": "app-5",
+    "fileName": "proof_of_address.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 192000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-13T11:00:00Z",
+    "fileUrl": "/files/app-5/proof_of_address.pdf",
+    "description": "Utility Bill - Proof of Address"
+  },
+  {
+    "id": "file-13",
+    "applicationId": "app-6",
+    "fileName": "id_document.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 256000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-15T08:30:00Z",
+    "fileUrl": "/files/app-6/id_document.pdf",
+    "description": "National ID Document"
+  },
+  {
+    "id": "file-14",
+    "applicationId": "app-7",
+    "fileName": "trust_deed.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 896000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-08T09:00:00Z",
+    "fileUrl": "/files/app-7/trust_deed.pdf",
+    "description": "Trust Deed and Declaration"
+  },
+  {
+    "id": "file-15",
+    "applicationId": "app-7",
+    "fileName": "trustee_appointment.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 128000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-08T09:30:00Z",
+    "fileUrl": "/files/app-7/trustee_appointment.pdf",
+    "description": "Trustee Appointment Letter"
+  },
+  {
+    "id": "file-16",
+    "applicationId": "app-7",
+    "fileName": "beneficiary_list.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 64000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-08T10:00:00Z",
+    "fileUrl": "/files/app-7/beneficiary_list.pdf",
+    "description": "List of Beneficiaries"
+  },
+  {
+    "id": "file-17",
+    "applicationId": "app-7",
+    "fileName": "asset_schedule.pdf",
+    "fileType": "application/pdf",
+    "fileSize": 512000,
+    "uploadedBy": "user-2",
+    "uploadedAt": "2024-01-08T10:30:00Z",
+    "fileUrl": "/files/app-7/asset_schedule.pdf",
+    "description": "Schedule of Trust Assets"
+  }
+]
+

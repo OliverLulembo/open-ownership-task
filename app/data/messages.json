@@ -1,0 +1,23 @@
+[
+  {
+    "id": "msg-1",
+    "userId": "user-1",
+    "content": "Hey, can someone check TASK-1? It needs urgent attention.",
+    "references": {
+      "taskIds": ["1"],
+      "instanceIds": []
+    },
+    "createdAt": "2024-01-15T12:00:00Z"
+  },
+  {
+    "id": "msg-2",
+    "userId": "user-2",
+    "content": "I'll take a look at INST-1 and see what's happening.",
+    "references": {
+      "taskIds": [],
+      "instanceIds": ["1"]
+    },
+    "createdAt": "2024-01-15T12:30:00Z"
+  }
+]
+

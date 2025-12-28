@@ -1,0 +1,284 @@
+[
+  {
+    "id": "ER-123",
+    "processId": "process-1",
+    "process": {
+      "id": "process-1",
+      "name": "Entity Registration",
+      "description": "Process for registering new entities",
+      "type": "Registration",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z",
+      "steps": [
+        {
+          "id": "step-1",
+          "name": "Initial Review",
+          "description": "Initial review step for company registration",
+          "order": 1,
+          "processId": "process-1",
+          "nextStepId": "step-2"
+        },
+        {
+          "id": "step-2",
+          "name": "Final Approval",
+          "description": "Final approval step for company registration",
+          "order": 2,
+          "processId": "process-1",
+          "nextStepId": null
+        }
+      ]
+    },
+    "application": {
+      "id": "app-1",
+      "applicationNumber": "APP-2024-001",
+      "companyType": "LLC",
+      "companyName": "Tech Innovations LLC",
+      "applicantName": "John Smith",
+      "applicantEmail": "john.smith@techinnovations.com",
+      "applicantPhone": "+1-555-0101",
+      "businessAddress": {
+        "street": "123 Innovation Drive",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "postalCode": "94105"
+      },
+      "registeredAddress": {
+        "street": "123 Innovation Drive",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States",
+        "postalCode": "94105"
+      },
+      "businessDescription": "Software development and technology consulting services",
+      "status": "Under Review",
+      "submittedAt": "2024-01-15T09:00:00Z",
+      "createdAt": "2024-01-10T08:00:00Z",
+      "updatedAt": "2024-01-15T09:00:00Z",
+      "attachments": ["file-1", "file-2", "file-3"]
+    },
+    "tasks": [
+      {
+        "id": "task-1",
+        "instanceId": "ER-123",
+        "stepId": "step-1",
+        "step": {
+          "id": "step-1",
+          "name": "Initial Review",
+          "description": "Initial review step for company registration",
+          "order": 1,
+          "processId": "process-1",
+          "nextStepId": "step-2",
+          "sla": 10
+        },
+        "comments": [
+          {
+            "id": "comment-1",
+            "content": "Please review the company registration documents for entity-123",
+            "createdAt": "2024-01-15T10:00:00Z",
+            "updatedAt": "2024-01-15T10:00:00Z"
+          }
+        ],
+        "application": {
+          "id": "app-1",
+          "name": "Company Registration",
+          "type": "Company Registration",
+          "status": "Pending",
+          "priority": "Urgent",
+          "assignedTo": "user-1",
+          "timeLeft": 5,
+          "dueBy": "2025-12-28T00:00:00Z",
+          "createdAt": "2024-01-15T10:00:00Z",
+          "updatedAt": "2024-01-15T10:00:00Z",
+          "userStatus": "New",
+          "notifications": 1,
+          "attachments": ["file-1", "file-2", "file-3"]
+        },
+        "title": "Review Company Registration",
+        "description": "Please review the company registration documents for entity-123",
+        "status": "Pending",
+        "priority": "Urgent",
+        "assignedTo": "user-1",
+        "timeLeft": 5,
+        "dueBy": "2025-12-28T00:00:00Z",
+        "createdAt": "2024-01-15T10:00:00Z",
+        "updatedAt": "2024-01-15T10:00:00Z",
+        "userStatus": "New",
+        "notifications": 1
+      }      
+    ],
+    "entityType": "Company",
+    "entityId": "app-1",
+    "status": "Overdue",
+    "priority": "Urgent",
+    "currentStepId": "step-1",
+    "startedAt": "2024-01-15T10:00:00Z",
+    "createdBy": "user-2"
+  },
+  {
+    "id": "ER-456",
+    "processId": "process-1",
+    "process": {
+      "id": "process-1",
+      "name": "Entity Registration",
+      "description": "Process for registering new entities",
+      "type": "Registration",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-01T00:00:00Z",
+      "steps": [
+        {
+          "id": "step-1",
+          "name": "Initial Review",
+          "description": "Initial review step for person registration",
+          "order": 1,
+          "processId": "process-1",
+          "nextStepId": "step-2"
+        },
+        {
+          "id": "step-2",
+          "name": "Final Approval",
+          "description": "Final approval step for person registration",
+          "order": 2,
+          "processId": "process-1",
+          "nextStepId": null
+        }
+      ]
+    },
+    "tasks": [
+      {
+        "id": "task-1",
+        "instanceId": "ER-123",
+        "stepId": "step-1",
+        "step": {
+          "id": "step-1",
+          "name": "Initial Review",
+          "description": "Initial review step for company registration",
+          "order": 1,
+          "processId": "process-1",
+          "nextStepId": "step-2",
+          "sla": 10
+        },
+        "comments": [
+          {
+            "id": "comment-1",
+            "content": "Please review the company registration documents for entity-123",
+            "createdAt": "2024-01-15T10:00:00Z",
+            "updatedAt": "2024-01-15T10:00:00Z"
+          }
+        ],
+        "application": {
+          "id": "app-1",
+          "name": "Company Registration",
+          "type": "Company Registration",
+          "status": "Pending",
+          "priority": "Urgent",
+          "assignedTo": "user-1",
+          "timeLeft": 5,
+          "dueBy": "2025-12-28T00:00:00Z",
+          "createdAt": "2024-01-15T10:00:00Z",
+          "updatedAt": "2024-01-15T10:00:00Z",
+          "userStatus": "New",
+          "notifications": 1,
+          "attachments": ["file-1", "file-2", "file-3"]
+        },
+        "title": "Review Company Registration",
+        "description": "Please review the company registration documents for entity-123",
+        "status": "Pending",
+        "priority": "Urgent",
+        "assignedTo": "user-1",
+        "timeLeft": 5,
+        "dueBy": "2025-12-28T00:00:00Z",
+        "createdAt": "2024-01-15T10:00:00Z",
+        "updatedAt": "2024-01-15T10:00:00Z",
+        "userStatus": "New",
+        "notifications": 1
+      },  
+      {
+        "id": "task-2",
+        "instanceId": "ER-456",
+        "stepId": "step-2",
+        "step": {
+          "id": "step-2",
+          "name": "Final Approval",
+          "description": "Final approval step for company registration",
+          "order": 2,
+          "processId": "process-1"
+        },
+        "title": "Final Approval for Company",
+        "description": "Final approval step for company registration",
+        "timeLeft": 24,
+        "status": "Pending",
+        "priority": "Important",
+        "assignedTo": "user-1",
+        "dueBy": "2025-12-28T11:00:00Z",
+        "createdAt": "2024-01-15T10:00:00Z",
+        "updatedAt": "2024-01-15T10:00:00Z",
+        "userStatus": "New",
+        "notifications": 0
+      }
+    ],
+    "application": {
+      "id": "app-2",
+      "applicationNumber": "APP-2024-002",
+      "companyType": "Corporation",
+      "companyName": "Global Manufacturing Corp",
+      "applicantName": "Sarah Johnson",
+      "applicantEmail": "sarah.j@globalmfg.com",
+      "applicantPhone": "+1-555-0102",
+      "businessAddress": {
+        "street": "456 Industrial Boulevard",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States",
+        "postalCode": "60601"
+      },
+      "registeredAddress": {
+        "street": "456 Industrial Boulevard",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States",
+        "postalCode": "60601"
+      },
+      "businessDescription": "Manufacturing and distribution of industrial equipment",
+      "incorporationDate": "2024-01-01",
+      "status": "Under Review",
+      "submittedAt": "2024-01-16T10:00:00Z",
+      "createdAt": "2024-01-12T08:00:00Z",
+      "updatedAt": "2024-01-16T10:00:00Z",
+      "attachments": ["file-4", "file-5"]
+    },
+    "entityType": "Person",
+    "entityId": "app-5",
+    "status": "In Progress",
+    "priority": "Important",
+    "currentStepId": "step-2",
+    "startedAt": "2024-01-16T14:30:00Z",
+    "createdBy": "user-2"
+  },
+    {
+      "id": "EU-123",
+      "processId": "process-2",
+      "process": {
+        "id": "process-2",
+        "name": "Entity Update",
+        "description": "Process for updating existing entities",
+        "type": "Update",
+        "createdAt": "2024-01-02T00:00:00Z",
+        "updatedAt": "2024-01-02T00:00:00Z",
+        "steps": [
+          {"id": "step-3", "name": "Update Review", "description": "Update review step for company update", "order": 3, "processId": "process-2", "nextStepId": "step-4"},
+          {"id": "step-4", "name": "Approve Update", "description": "Approve update step for company update", "order": 4, "processId": "process-2", "nextStepId": "step-5"},
+          {"id": "step-5", "name": "Complete Update", "description": "Complete update step for company update", "order": 5, "processId": "process-2", "nextStepId": null}
+        ]
+      },
+      "entityType": "Company",
+      "entityId": "app-3",
+      "status": "Delayed",
+      "priority": "Can do Later",
+      "currentStepId": "step-3",
+      "startedAt": "2024-01-17T09:15:00Z",
+      "createdBy": "user-2"
+    }
+   
+]
+

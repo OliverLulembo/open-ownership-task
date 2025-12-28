@@ -1,0 +1,27 @@
+[
+  {
+    "id": "process-1",
+    "name": "Entity Registration",
+    "description": "Process for registering new entities",
+    "type": "Registration",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "updatedAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "process-2",
+    "name": "Entity Update",
+    "description": "Process for updating existing entities",
+    "type": "Update",
+    "createdAt": "2024-01-02T00:00:00Z",
+    "updatedAt": "2024-01-02T00:00:00Z"
+  },
+  {
+    "id": "process-3",
+    "name": "Compliance Review",
+    "description": "Process for compliance review",
+    "type": "Review",
+    "createdAt": "2024-01-03T00:00:00Z",
+    "updatedAt": "2024-01-03T00:00:00Z"
+  }
+]
+

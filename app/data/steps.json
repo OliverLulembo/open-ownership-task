@@ -1,0 +1,150 @@
+[
+  {
+    "id": "step-1",
+    "processId": "process-1",
+    "name": "Initial Review",
+    "order": 1,
+    "description": "Initial review of the entity registration",
+    "actions": [
+      {
+        "id": "action-1",
+        "name": "Approve",
+        "type": "Approve",
+        "nextStepId": "step-2"
+      },
+      {
+        "id": "action-2",
+        "name": "Reject",
+        "type": "Reject"
+      },
+      {
+        "id": "action-3",
+        "name": "Send Back",
+        "type": "SendBack"
+      }
+    ],
+    "roles": [
+      {
+        "role": "executor",
+        "canExecute": true
+      }
+    ],
+    "nextStepId": "step-2",
+    "sla": 10
+  },
+  {
+    "id": "step-2",
+    "processId": "process-1",
+    "name": "Final Approval",
+    "order": 2,
+    "description": "Final approval step",
+    "actions": [
+      {
+        "id": "action-4",
+        "name": "Approve",
+        "type": "Approve"
+      },
+      {
+        "id": "action-5",
+        "name": "Done",
+        "type": "Done"
+      }
+    ],
+    "roles": [
+      {
+        "role": "executor",
+        "canExecute": true
+      }
+    ]
+  },
+  {
+    "id": "step-3",
+    "processId": "process-2",
+    "name": "Update Review",
+    "order": 1,
+    "description": "Review entity updates",
+    "actions": [
+      {
+        "id": "action-6",
+        "name": "Approve",
+        "type": "Approve",
+        "nextStepId": "step-4"
+      }
+    ],
+    "roles": [
+      {
+        "role": "executor",
+        "canExecute": true
+      }
+    ],
+    "nextStepId": "step-4",
+    "sla": 10
+  },
+  {
+    "id": "step-4",
+    "processId": "process-2",
+    "name": "Approve Update",
+    "order": 2,
+    "description": "Complete the update process",
+    "actions": [
+      {
+        "id": "action-7",
+        "name": "Done",
+        "type": "Done"
+      }
+    ],
+    "roles": [
+      {
+        "role": "executor",
+        "canExecute": true
+      }
+    ],
+    "nextStepId": "step-5",
+    "sla": 10
+  },
+  {
+    "id": "step-5",
+    "processId": "process-2",
+    "name": "Complete Update",
+    "order": 1,
+    "description": "Complete the update process",
+    "actions": [
+      {
+        "id": "action-8",
+        "name": "Done",
+        "type": "Done"
+      }
+    ],
+    "roles": [
+      {
+        "role": "executor",
+        "canExecute": true
+      }
+    ],
+    "nextStepId": null,
+    "sla": 10
+  },
+  {
+    "id": "step-6",
+    "processId": "process-3",
+    "name": "Complete Compliance Review",
+    "order": 1,
+    "description": "Complete the compliance review process",
+    "actions": [
+      {
+        "id": "action-9",
+        "name": "Done",
+        "type": "Done"
+      }
+    ],
+    "roles": [
+      {
+        "role": "executor",
+        "canExecute": true
+      }
+    ],
+    "nextStepId": null,
+    "sla": 10
+  }
+]
+

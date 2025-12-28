@@ -1,0 +1,104 @@
+[
+  {
+    "id": "task-1",
+    "instanceId": "ER-123",
+    "stepId": "step-1",
+    "step": {
+      "id": "step-1",
+      "name": "Initial Review",
+      "description": "Initial review step for company registration",
+      "order": 1,
+      "processId": "process-1",
+      "nextStepId": "step-2",
+      "sla": 10
+    },
+    "comments": [
+      {
+        "id": "comment-1",
+        "content": "Please review the company registration documents for entity-123",
+        "createdAt": "2024-01-15T10:00:00Z",
+        "updatedAt": "2024-01-15T10:00:00Z"
+      }
+    ],
+    "application": {
+      "id": "app-1",
+      "name": "Company Registration",
+      "type": "Company Registration",
+      "status": "Pending",
+      "priority": "Urgent",
+      "assignedTo": "user-1",
+      "timeLeft": 5,
+      "dueBy": "2025-12-28T00:00:00Z",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z",
+      "userStatus": "New",
+      "notifications": 1,
+      "attachments": ["file-1", "file-2", "file-3"]
+    },
+    "title": "Review Company Registration",
+    "description": "Please review the company registration documents for entity-123",
+    "status": "Pending",
+    "priority": "Urgent",
+    "assignedTo": "user-1",
+    "timeLeft": 5,
+    "actionTaken": "",
+    "dueBy": "2025-12-30T15:00:00Z",
+    "createdAt": "2024-01-15T10:00:00Z",
+    "updatedAt": "2024-01-15T10:00:00Z",
+    "userStatus": "New",
+    "notifications": 1
+  },
+  {
+    "id": "task-3",
+    "instanceId": "ER-456",
+    "stepId": "step-1",
+    "step": {
+      "id": "step-1",
+      "name": "Initial Review",
+      "description": "Initial review step for person registration",
+      "order": 1,
+      "processId": "process-1",
+      "nextStepId": "step-2",
+      "sla": 10
+    },
+    "title": "Review Person Registration",
+    "description": "Review person registration for entity-456",
+    "timeLeft": 7,
+    "status": "In Progress",
+    "priority": "Important",
+    "assignedTo": "user-1",
+    "actionTaken": "",
+    "dueBy": "2025-12-30T19:00:00Z",
+    "createdAt": "2024-01-16T14:30:00Z",
+    "updatedAt": "2024-01-16T14:30:00Z",
+    "userStatus": "Opened",
+    "notifications": 2
+  },
+  {
+    "id": "task-4",
+    "instanceId": "ER-456",
+    "stepId": "step-2",
+    "step": {
+      "id": "step-2",
+      "name": "Final Approval",
+      "description": "Final approval step for person registration",
+      "order": 2,
+      "processId": "process-1",
+      "nextStepId": "step-3",
+      "sla": 10
+    },
+    "title": "Final Approval for Person",
+    "description": "Final approval for person registration",
+    "timeLeft": 4,
+    "status": "Pending",
+    "priority": "Not important",
+    "assignedTo": "user-1",
+    "actionTaken": "",
+    "dueBy": "2025-12-30T23:00:00Z",
+    "createdAt": "2024-01-16T14:30:00Z",
+    "updatedAt": "2024-01-16T14:30:00Z",
+    "userStatus": "New",
+    "notifications": 0
+  }
+]
+
