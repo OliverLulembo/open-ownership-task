@@ -34,7 +34,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const login = (email: string): User | null => {
-    const foundUser = usersData.find(u => u.email === email);
+    const foundUser = usersData.find(u => u.email === email) as User | undefined;
     if (foundUser) {
       setUser(foundUser);
       if (typeof window !== 'undefined') {
