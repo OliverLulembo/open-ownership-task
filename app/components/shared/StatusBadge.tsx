@@ -12,15 +12,15 @@ interface StatusBadgeProps {
 export function StatusBadge({ status, className }: StatusBadgeProps) {
   const variantMap: Record<TaskStatus, 'default' | 'secondary' | 'destructive' | 'outline'> = {
     'Pending': 'secondary',
-    'InProgress': 'default',
-    'stashed': 'outline',
+    'In Progress': 'default',
+    'Stashed': 'outline',
     'Completed': 'default',
   };
 
   const colorMap: Record<TaskStatus, string> = {
     'Pending': 'bg-yellow-100 text-yellow-800',
-    'InProgress': 'bg-blue-100 text-blue-800',
-    'stashed': 'bg-gray-100 text-gray-800',
+    'In Progress': 'bg-blue-100 text-blue-800',
+    'Stashed': 'bg-gray-100 text-gray-800',
     'Completed': 'bg-green-100 text-green-800',
   };
 
